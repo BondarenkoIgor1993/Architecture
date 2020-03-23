@@ -1,0 +1,15 @@
+Microservices + DDD
+https://habr.com/ru/post/493426/
+1. Primary Adapters - services
+2. SecondaryAdapters - repos, EmailSender, Logger, DistributedCache
+3. Logic
+  3.1. Entities - our domain objects ( Items, Users ect.)
+  3.2 DomainServices - actions or calculations over entities.
+  
+ Domain - domain area of our project
+ 
+ BoundedContext - isolated part of application with some particular responsobility. Example: Bucket in ECommerce.
+ 
+ https://habrastorage.org/webt/8g/kb/4y/8gkb4yjeoduvybjcxsyo77apjre.png - diagram
+ 
+ project example - https://gitlab.com/VictorWinbringer/testruvds
